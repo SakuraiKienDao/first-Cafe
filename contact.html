@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>コンタクト | KUJIRA CAFE</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+<!--ヘッダー-->
+      <header class="header">
+        <h1 class="logo"><img src="images/logo.png" alt="KUJIRA CAFE"></h1>
+        <nav class="nav">
+          <ul>
+            <li><a href="about.html">店舗案内</a></li>
+            <li><a href="access.html">アクセス</a></li>
+            <li><a href="menu.html">メニュー</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
+          </ul>
+        </nav>
+      </header>
+<!--ヘッダーここまで-->
+<!--メイン-->
+      <div class="keyvisual">
+        <img src="images/keyvisual.jpg" alt="KUJIRA CAFE">
+      </div>
+      <main>
+          <h2>お問い合わせ</h2>
+          <form method="get" action="result.html">
+          <div>
+              お問い合わせの種類<br/>
+              <select name="kind">
+              <option value="resrvation">ご予約</option>
+                  <option value="event">イベントについいて</option>
+                  <option value="contact">その他のお問い合わせ</option>
+              </select>
+              </div>
+              <div>
+              KUJIRA Cafeに来店いただいことはありますか。<br>
+                  <input type="radio" name="first" value="yes" checked> はい
+                  <input type="radio" name="first" value="no">いええ
+              </div>
+          </form>
+         </main>
+<!--メインここまで-->
+<!--フッター-->
+      <footer class="footer">
+        <p>&copy; Copyright KUJIRA CAFE. All rights reserved.</p>
+      </footer>
+<!--フッターここまで-->
+    </div>
+  </body>
+</html>
